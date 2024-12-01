@@ -30,7 +30,7 @@ const Dashboard = () => {
           {/* receipe section */}
 
           <div className="recipecard d-flex justify-content-between flex-wrap align-items-center">
-            <Card style={{ maxWidth: '21rem',width:"100%",marginBlock:"15px",boxShadow:"0px 2px 20px #cfd8dc",height:"27rem",cursor:"pointer" }}>
+            <Card style={{ maxWidth: '21rem',width:"100%",marginBottom:"15px",boxShadow:"0px 2px 20px #cfd8dc",height:"27rem",cursor:"pointer" }}>
               <Card.Img  style={{width:"100%",height:"13rem"}} variant="top" src="/logo192.png" />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
