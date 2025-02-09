@@ -4,8 +4,17 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Card from 'react-bootstrap/Card';
 import "./dashboard.scss"
+import { useNavigate } from 'react-router-dom';
 
 const Dashboard = () => {
+
+
+  const navigate = useNavigate();
+
+
+  const handleNavigateRecipe = (id)=>{
+    navigate(`/RecipeDetails/${id}`)
+  }
   return (
     <>
       <Container>
@@ -37,7 +46,7 @@ const Dashboard = () => {
                 <Card.Text>
                   Some quick example text to build on the card title.
                 </Card.Text>
-                <Button variant="danger">Go somewhere</Button>
+                <Button variant="outline-danger" onClick={()=> handleNavigateRecipe(1)}>View Recipe</Button>
               </Card.Body>
             </Card>
           </div>

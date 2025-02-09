@@ -1,0 +1,54 @@
+.mainDetails{
+    padding: 5px;
+    .star{
+        color:#d54215;
+      }
+      .review{
+        border-bottom: 1px solid #d54215;
+        padding-bottom:2px;
+      }
+
+      .cooking{
+        width: 100%;
+        height: 10px;
+        background: #e7ab46;
+      }
+
+      .circle{
+        color: #e7ab46;
+        font-size: 6px;
+      }
+      .instructions{
+        max-width: 33rem;
+        width: 100%;
+        minHeight: 200px;
+        height: 100%;
+        padding: 20px;
+        border: 2px solid #114388;
+      }
+
+      .user_review{
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        max-width: 550px;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+      }
+
+    }
+    .btn{
+      background:#d54215;
+      border:none;
+      color:#fff;
+      border-radius: unset;
+    }
+
+    .cancel_btn{
+        border:none;
+        color:black;
+        background-color: #fff;
+    }
