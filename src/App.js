@@ -7,6 +7,7 @@ import Register from './pages/Register/Register';
 import Forgotpassword from './pages/ForgotPassword/Forgotpassword';
 import ResetPassword from './pages/ForgotPassword/ResetPassword';
 import RecipeDetails from './pages/RecipeDetails/RecipeDetails';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='/forgotpassword' element={<Forgotpassword />} />
       <Route path='/resetpassword/:id/:token' element={<ResetPassword />} />
     </Routes>
+    <Toaster />
   </>
   );
 }
